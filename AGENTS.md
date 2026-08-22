@@ -16,6 +16,19 @@ This repository contains the public ESHIC standard and supporting documentation.
 - Keep normative and informative text clearly distinguished.
 - Do not make one reference implementation's language, transport, UI framework, or design system normative without explicit cross-implementation justification.
 
+## Operational-fit-first rule
+
+ESHIC is developed first to solve concrete integration needs in the systems that actually use it.
+
+- Real adopter requirements come before speculative universality.
+- Do not weaken, complicate, or distort a useful adopter design merely to make the standard appear broader.
+- Generalize only after a requirement has been observed in a real integration or when generalization clearly reduces complexity for current adopters.
+- Public usefulness is a welcome result of a good working standard, not a reason to force adopters to conform to abstractions they do not need.
+- The primary reference ecosystem may exercise new semantics before those semantics are promoted into stable normative ESHIC requirements.
+- A proposed abstraction that makes current adopters harder to implement requires explicit justification.
+
+See `docs/rationale/OPERATIONAL_FIT_FIRST.md`.
+
 ## Scope discipline
 
 ESHIC owns service-to-Hub human integration semantics.
