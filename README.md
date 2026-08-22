@@ -30,6 +30,18 @@ The current architecture baseline is:
 
 [`specification/0.1/ESHIC_0.1_BLUEPRINT.md`](specification/0.1/ESHIC_0.1_BLUEPRINT.md)
 
+## Development philosophy
+
+ESHIC is **operational-fit first**.
+
+The standard is developed from concrete integration requirements in systems that actually use it. Generality is introduced when it helps real adopters, not as an end in itself.
+
+Public reuse is encouraged, but ESHIC does not ask its primary adopters to accept unnecessary complexity merely to look more universal.
+
+See:
+
+[`docs/rationale/OPERATIONAL_FIT_FIRST.md`](docs/rationale/OPERATIONAL_FIT_FIRST.md)
+
 ## What ESHIC covers
 
 ESHIC focuses on the **service-to-Hub human integration plane**:
